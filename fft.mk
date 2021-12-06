@@ -16,7 +16,7 @@ DELCMD_WIN = del
 DELCMD_LIN = rm -f
 DELCMD = $(DELCMD_WIN)
 
-PROGRAM := fft
+PROGRAM := my-prog-name-goes-here
 
 all :
 
