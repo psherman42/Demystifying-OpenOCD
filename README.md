@@ -18,4 +18,4 @@ make -f fe310.mk ram
 </pre>
 
 
-For more information, see full discussion at https://forums.sifive.com/t/correct-plic-claim-complete-register-addresses/5455/2
+<small>For more information, see full discussion at https://forums.sifive.com/t/correct-plic-claim-complete-register-addresses/5455/2</small>
