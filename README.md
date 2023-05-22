@@ -19,4 +19,12 @@ make -f fe310.mk ram
 </pre>
 
 
-<small>For more information, see full discussion at https://forums.sifive.com/t/correct-plic-claim-complete-register-addresses/5455/2</small>
+<small>The line of the makedile which does the actual loading of compiled, assembled, and linked code is
+
+openocd -f fe310-g002.cfg -c "adapter speed 2000" -c init -c "asic_rom_load my_prog"\
+
+-c shutdown -c exit
+
+where my_prog-rom.bin has been linked for rom target addresses in the linker .lds script.
+</small>
+
