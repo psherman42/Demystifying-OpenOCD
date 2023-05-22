@@ -19,7 +19,7 @@ make -f fe310.mk ram
 </pre>
 
 
-<small>The line of the makedile which does the actual loading of compiled, assembled, and linked code is
+<small>The line of the makefile which does the actual loading of compiled, assembled, and linked code is
 
 openocd -f fe310-g002.cfg -c "adapter speed 2000" -c init -c "asic_rom_load my_prog"\
 
